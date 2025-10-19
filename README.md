@@ -221,6 +221,3 @@ Si encuentras algún problema:
 **¿Te fue útil este proyecto? ¡Dale una ⭐ en GitHub!**
 
 ---
-
-
-¿Quieres que agregue alguna sección específica o modifique algo del README?
