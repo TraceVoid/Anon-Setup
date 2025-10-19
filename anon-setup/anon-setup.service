@@ -1,0 +1,12 @@
+[Unit]
+Description=Anonimizar VM al arranque - mac randomize / machine-id / limpieza / DNS lock
+After=network-pre.target network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/anon-setup.sh
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target
